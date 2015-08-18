@@ -14,13 +14,7 @@ var o_o = {
       return output;
   },
   filter: function(list, callback) {
-    var output = [];
-      for (var i = 0; i < list.length; i++) {
-        if (callback(list[i])) {
-          output.push(list[i]);
-        }
-      }
-      return output;
+    //code here...
   }
 };
 
